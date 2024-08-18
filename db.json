@@ -1,9 +1,132 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "username": "Robert",
+      "password": "MTIzNA==",
+      "email": "robert@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "Austin",
+      "password": "MTIzNA==",
+      "email": "austin@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "versace",
+      "password": "MTIzNA==",
+      "email": "v@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "gucci",
+      "password": "MTIzNA==",
+      "email": "g@gmail.com",
+      "id": 4
+    },
+    {
+      "username": "Tont",
+      "password": "MTIzNA==",
+      "email": "anthonymaundu1@gmail.com",
+      "id": 5
+    },
+    {
+      "username": "Ian",
+      "password": "MTIzNA==",
+      "email": "ian@gmail.com",
+      "id": 6
+    },
+    {
+      "username": "beast",
+      "password": "MTIzNA==",
+      "email": "beast@gmail.com",
+      "id": 7
+    },
+    {
+      "username": "Lebron",
+      "password": "MTIzNA==",
+      "email": "lebron@gmail.com",
+      "id": 8
+    },
+    {
+      "username": "yolo",
+      "password": "MTIzNA==",
+      "email": "y@gmail.com",
+      "id": 9
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1723667547350,
+      "title": "FIFA",
+      "description": "game with the boys",
+      "dueDate": "2024-08-14",
+      "priority": "High",
+      "category": "Personal",
+      "reminderTime": "2024-08-14T23:36",
+      "completed": false,
+      "userId": 1
+    },
+    {
+      "id": 1723668042296,
+      "title": "vjds",
+      "description": "dfdfdfdf",
+      "dueDate": "2024-08-14",
+      "priority": "High",
+      "category": "Work",
+      "reminderTime": "2024-08-14T23:43",
+      "completed": false,
+      "userId": 3
+    },
+    {
+      "id": 1723668112902,
+      "title": "fdsfdsfdsf",
+      "description": "dsfdsfdsfdsf",
+      "dueDate": "2024-08-14",
+      "priority": "Medium",
+      "category": "Work",
+      "reminderTime": "2024-08-14T23:45",
+      "completed": false,
+      "userId": 4
+    },
+    {
+      "id": 1723668663872,
+      "title": "RAOD TRIP",
+      "description": "DFGFDG",
+      "dueDate": "2024-08-14",
+      "priority": "High",
+      "category": "Personal",
+      "reminderTime": "2024-08-14T23:56",
+      "completed": false,
+      "userId": 7
+    },
+    {
+      "id": 1723669716779,
+      "title": "dsadsad",
+      "description": "dsdadssd",
+      "dueDate": "2024-08-15",
+      "priority": "Medium",
+      "category": "Work",
+      "reminderTime": "2024-08-15T00:11",
+      "completed": false,
+      "userId": 9
+    }
+  ]
 }
